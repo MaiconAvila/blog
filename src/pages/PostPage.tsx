@@ -104,9 +104,9 @@ export default function PostPage() {
   return (
     <Layout>
       <Helmet>
-        <title>{frontmatter.title} - PhraseBlog</title>
+        <title>{frontmatter.title} - PhraseQuote</title>
         <meta name="description" content={frontmatter.description} />
-        <meta property="og:title" content={`${frontmatter.title} - PhraseBlog`} />
+        <meta property="og:title" content={`${frontmatter.title} - PhraseQuote`} />
         <meta property="og:description" content={frontmatter.description} />
         {frontmatter.image && (
           <meta property="og:image" content={frontmatter.image} />

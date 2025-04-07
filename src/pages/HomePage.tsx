@@ -60,9 +60,9 @@ export default function HomePage() {
   return (
     <Layout>
       <Helmet>
-        <title>PhraseBlog - Inspiring Quotes and Phrases</title>
+        <title>PhraseQuote - Inspiring Quotes and Phrases</title>
         <meta name="description" content="Discover inspiring quotes and phrases for every occasion. Share meaningful words with your loved ones." />
-        <meta property="og:title" content="PhraseBlog - Inspiring Quotes and Phrases" />
+        <meta property="og:title" content="PhraseQuote - Inspiring Quotes and Phrases" />
         <meta property="og:description" content="Discover inspiring quotes and phrases for every occasion." />
       </Helmet>
       

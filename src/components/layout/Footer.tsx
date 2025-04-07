@@ -132,7 +132,7 @@ export function Footer() {
         </div>
         
         <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>© {year} PhraseBlog. All rights reserved.</p>
+          <p>© {year} PhraseQuote. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-4">
             <Link to="/terms" className="hover:text-primary">Terms</Link>
             <Link to="/privacy" className="hover:text-primary">Privacy</Link>

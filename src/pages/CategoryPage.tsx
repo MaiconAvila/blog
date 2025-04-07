@@ -56,7 +56,7 @@ export default function CategoryPage() {
   return (
     <Layout>
       <Helmet>
-        <title>{categoryName} Phrases - PhraseBlog</title>
+        <title>{categoryName} Phrases - PhraseQuote</title>
         <meta 
           name="description" 
           content={`Discover the best ${categoryName.toLowerCase()} phrases and quotes for every occasion.`} 
