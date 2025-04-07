@@ -26,7 +26,7 @@ export async function getAllPosts(): Promise<PostWithSource[]> {
   try {
     for (const path in postModules) {
       try {
-        const module = await postModules[path]();
+        const module: any = await postModules[path]();
         const pathSegments = path.split('/');
         const fileName = pathSegments[pathSegments.length - 1];
         const category = pathSegments[pathSegments.length - 2];
